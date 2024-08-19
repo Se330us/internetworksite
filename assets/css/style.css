@@ -4623,6 +4623,7 @@ textarea.form-control.is-invalid {
 }
 
 .breadcumb-title {
+  color: white;
   font-size: 60px;
   margin-top: -0.3em;
 }
@@ -9742,8 +9743,15 @@ blockquote cite:before {
 .vs-product-box .product-title a {
   color: inherit;
 }
+.vs-product-box .product-features {
+  color: black;
+}
+.vs-product-box .current-feature {
+  color: var(--title-color);
+  font-weight: 500;
+}
 .vs-product-box .price {
-  color: var(--theme-color);
+  color: var(--title-color2);
   font-weight: 700;
 }
 .vs-product-box .product-content {
@@ -9753,6 +9761,7 @@ blockquote cite:before {
   transition: all ease 0.4s;
 }
 .vs-product-box .product-img {
+  border-radius: 20px;
   background-color: #f3f6f7;
   overflow: hidden;
   position: relative;
